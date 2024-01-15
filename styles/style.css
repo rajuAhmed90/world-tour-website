@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* common color */
+
+.common-color {
+    color: #FF5400;
+}
+
+.common-back-color {
+    background-color: #FF5400;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+
+/* header start here */
+
+header {
+    width: 1092px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+nav {
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1092px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+}
+
+.site-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #424247;
+    text-decoration: none;
+
+}
+
+/* the code below should be displayed block in 600px  */
+.home-icon {
+    font-size: 24px;
+    display: none;
+}
+
+
+/* banner start here */
+
+.banner {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/group13.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 16px;
+}
+
+.banner-info-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid blueviolet; */
+    width: 850px;
+}
+
+.banner-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+.banner-form-info {
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 850px;
+}
+
+
+
+.banner-form-info input[type='text'] {
+    padding: 15px 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 200px;
+
+}
+
+.banner-form-info button {
+    background: #FF5400;
+    padding:15px 10px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+.fa-magnifying-glass{
+    padding-right: 10px;
+}
