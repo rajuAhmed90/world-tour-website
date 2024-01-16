@@ -1,17 +1,16 @@
-
-
-
 @media screen and (max-width:600px) {
 
     /* elements to be display none
     and display block */
 
-    nav .site-items ul{
+    nav .site-items ul {
         display: none;
     }
-    nav .site-items .home-icon{
+
+    nav .site-items .home-icon {
         display: block;
     }
+
     header {
         width: 100%;
         margin-top: 20px;
@@ -20,40 +19,47 @@
     }
 
     nav {
-       
+
         width: 100%;
-        
+
     }
+
     .banner {
         margin-top: 30px;
         width: 100%;
         height: 500px;
-    
+
     }
+
     .banner-info-container {
-    
+
         width: 100%;
     }
+
     .banner-heading {
         font-size: 22px;
-    
+
     }
+
     .banner-description {
         width: 100%;
         margin-bottom: 20px;
-    
+
     }
+
     .banner-form-info {
         padding: 15px;
         width: 90%;
         margin: 0 auto;
     }
+
     .banner-form-info input[type='text'] {
         width: 100%;
         display: block;
         margin-bottom: 10px;
-    
+
     }
+
     .banner-form-info button {
         width: 100%;
         text-align: center;
@@ -64,9 +70,10 @@
         width: 100%;
         margin-top: 20px;
         flex-direction: column;
-        
+
     }
-    .our-popular-tour-picture img{
+
+    .our-popular-tour-picture img {
         width: 100%;
     }
 
@@ -77,35 +84,73 @@
         margin: 0 auto;
         margin-top: 30px;
         padding: 0 10px;
-    
+
     }
 
     .choose-destination-title {
-    
+
         font-size: 20px;
         margin-bottom: 10px;
-        
-    
+
+
     }
 
 
     /* Nice picture responsive layout start here */
 
 
-    .container{
+    .container {
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(7, 250px);
         margin-top: 20px;
     }
 
-    .box1, .box2, .box3,
-    .box4, .box5, .box6, .box7
-    {
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7 {
         grid-column: 1/ 13;
     }
 
 
     /* Nice picture responsive layout end here */
 
-    
+
+    /* why choose us section start here */
+
+    .why-choose-us-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .why-choose-us-text-info {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .hotel-and-service-container {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .hotel-info,
+    .service-info,
+    .best-price-text-info {
+      
+        width: calc(100% - 40px);
+       
+    }
+
+    .best-price-text-info {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+
+
 }
