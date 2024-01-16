@@ -181,7 +181,7 @@
         width: 100%;
         height: auto;
         background: rgba(19, 19, 24, 0.05);
-        
+
     }
 
     .footer-text {
@@ -192,6 +192,34 @@
 
     .site-copyright-text {
         margin-top: 20px;
+    }
+
+
+    /* Bonus image start here  */
+
+    .bonus-travel-container {
+
+        width: 92%;
+        height: 600px;
+        margin: 20px auto;
+        flex-direction: column;
+        
+    }
+
+    .bonus-title {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .bonus-description {
+        font-size: 16px;
+        color: rgba(245, 245, 245, 0.562);
+    }
+
+    .traveller-girl {
+        width: 250px;
+        height: 300px;
+        
     }
 
 
