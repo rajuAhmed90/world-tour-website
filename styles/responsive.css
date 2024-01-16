@@ -141,15 +141,32 @@
     .hotel-info,
     .service-info,
     .best-price-text-info {
-      
+
         width: calc(100% - 40px);
-       
+        /* this line of code below may be deleted later */
+        margin: 0 auto;
+
     }
 
     .best-price-text-info {
         width: calc(100% - 40px);
         margin: 0 auto;
         margin-top: 26px;
+    }
+
+    /* NEWSLETTER SECTION START HERE */
+
+    .news-letter-container {
+        width: 90%;
+        margin: 10px auto;
+        margin-top: 30px;
+        gap: 10px;
+        flex-direction: column;
+       
+    }
+
+    .news-letter-image {
+        height: 400px;
     }
 
 
