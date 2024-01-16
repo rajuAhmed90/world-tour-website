@@ -51,18 +51,18 @@ nav {
     padding-left: 10px;
 }
 
-ul {
+nav .site-items ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 44px;
 }
 
-ul>li {
+nav .site-items ul li {
     list-style: none;
 }
 
-ul a {
+nav .site-items ul a {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -144,13 +144,188 @@ ul a {
 
 .banner-form-info button {
     background: #FF5400;
-    padding:15px 10px;
+    padding: 15px 10px;
     border-radius: 8px;
     color: white;
     border: none;
     width: 200px;
     text-align: center;
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     padding-right: 10px;
 }
+
+/* Our Popular Tour Section */
+
+.our-popular-tour-container {
+    width: 1092px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.our-popular-tour-text-info,
+.our-popular-tour-picture {
+    padding: 10px;
+}
+
+.our-popular-tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.our-popular-tour-small-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+
+.our-popular-tour-text-info ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.our-popular-tour-big-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.our-tour-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/* Choose your destination start here */
+
+.choose-destination-container {
+    width: 1092px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.choose-destination-text-info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.choose-destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.choose-destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+
+
+/* Nice picture layout style start here */
+
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    margin-top: 30px;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.box{
+    /* border: 1px solid rgb(228, 10, 10); */
+    border-radius: 16px;
+}
+
+.box1{
+    grid-column: 1/ 7;
+}
+
+.box2{
+    grid-column: 7/ 13;
+}
+
+.box3{
+    grid-column: 1/4;
+}
+
+.box4{
+    grid-column: 4/10;
+}
+
+.box5{
+    grid-column: 10/13;
+}
+.box6{
+    grid-column: 1/5;
+}
+
+.box7{
+    grid-column: 5/-1;
+}
+
+
+
+
+
+/* positioning of middle text*/
+
+.box1, .box2, .box3, .box4,
+.box5, .box6, .box7
+{
+    position: relative;
+}
+
+.country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+
+/* Nice Picture layout end here */
