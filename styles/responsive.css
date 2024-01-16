@@ -162,11 +162,36 @@
         margin-top: 30px;
         gap: 10px;
         flex-direction: column;
-       
+
     }
 
     .news-letter-image {
         height: 400px;
+    }
+
+
+    /* footer section start here */
+
+    footer {
+        margin-top: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+        width: 100%;
+        height: auto;
+        background: rgba(19, 19, 24, 0.05);
+        
+    }
+
+    .footer-text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .site-copyright-text {
+        margin-top: 20px;
     }
 
 

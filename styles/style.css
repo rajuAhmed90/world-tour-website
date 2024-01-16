@@ -71,6 +71,10 @@ nav .site-items ul a {
 
 }
 
+#common-color{
+    color: #FF5400;
+}
+
 /* the code below should be displayed block in 600px  */
 .home-icon {
     font-size: 24px;
@@ -501,7 +505,7 @@ nav .site-items ul a {
 
 .news-letter-image {
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 16px;
 }
 
@@ -538,5 +542,88 @@ nav .site-items ul a {
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
-  
+    margin-top: 10px;
+
+}
+
+/* footer section start here */
+
+footer {
+    margin-top: 90px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    width: 100%;
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    
+}
+
+.footer-text {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-site-logo-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-site-logo {
+    color: #131318;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.footer-site-special-word {
+    color: #FF5400;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(39, 37, 37);
+}
+
+.site-copyright-text {
+    color: #131318;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* hr (Horizontal row) style here */
+
+hr{
+    
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    
 }
